@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dark oxygen — the oxygen that wasn't (and the anomaly that remains)</title>
+<style>
+  :root{
+    --deep:#060b16; --ink:#0d1626; --line:#1c2a44;
+    --txt:#dbe4f3; --dim:#93a3c0; --amber:#e8a33d; --cyan:#5fd0c9;
+    --red:#e0685a;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--deep);color:var(--txt);font-family:Georgia,"Times New Roman",serif;
+       line-height:1.7;margin:0;padding:0}
+  .wrap{max-width:720px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+  header{border-bottom:1px solid var(--line);padding-bottom:2rem;margin-bottom:2rem}
+  h1{font-size:2.2rem;line-height:1.2;margin:0 0 .4rem;font-weight:normal;letter-spacing:.02em}
+  h1 .thin{color:var(--dim)}
+  .sub{color:var(--dim);font-style:italic;font-size:1.05rem}
+  .byline{color:var(--dim);font-size:.9rem;margin-top:1rem;font-family:ui-monospace,Menlo,monospace}
+  h2{font-weight:normal;font-size:1.45rem;margin:2.8rem 0 1rem;color:var(--amber);
+     border-bottom:1px solid var(--line);padding-bottom:.4rem}
+  h2 span.n{color:var(--dim);font-size:.9rem;margin-right:.6rem;font-family:ui-monospace,Menlo,monospace}
+  p{margin:1rem 0}
+  em{color:#fff}
+  .pull{border-left:3px solid var(--cyan);padding:.2rem 0 .2rem 1rem;margin:1.6rem 0;
+        font-style:italic;color:#cfe7ff;font-size:1.08rem}
+  /* timeline */
+  .tl{position:relative;margin:1.5rem 0 0;padding-left:1.6rem}
+  .tl::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;
+              background:linear-gradient(var(--cyan),var(--red))}
+  .t{position:relative;margin:0 0 .6rem}
+  .t::before{content:"";position:absolute;left:-1.6rem;top:1.35em;width:14px;height:14px;
+             border-radius:50%;background:var(--deep);border:2px solid var(--dim)}
+  .t.claim::before{border-color:var(--cyan)}
+  .t.crit::before{border-color:var(--red)}
+  .t.note::before{border-color:var(--amber)}
+  .t button{background:none;border:none;color:inherit;font:inherit;text-align:left;cursor:pointer;
+            padding:.5rem .6rem;width:100%;border-radius:6px}
+  .t button:hover{background:var(--ink)}
+  .t .when{font-family:ui-monospace,Menlo,monospace;font-size:.82rem;color:var(--dim)}
+  .t .head{font-size:1.02rem}
+  .t .tag{display:inline-block;font-size:.72rem;border:1px solid var(--line);border-radius:3px;
+          padding:.05rem .45rem;margin-left:.5rem;color:var(--dim);font-family:ui-monospace,Menlo,monospace}
+  .t .detail{display:none;padding:.2rem .6rem 1rem;font-size:.97rem;color:var(--txt)}
+  .t.open .detail{display:block}
+  .t.open button{background:var(--ink)}
+  .t .detail a{color:var(--cyan)}
+  a{color:var(--cyan)}
+  .legend{font-size:.85rem;color:var(--dim);margin-top:.4rem}
+  .legend i{display:inline-block;width:.7em;height:.7em;border-radius:50%;margin:0 .3em 0 1em;
+            border:2px solid}
+  .legend .c{border-color:var(--cyan)} .legend .r{border-color:var(--red)} .legend .a{border-color:var(--amber)}
+  .sources{font-size:.92rem}
+  .sources li{margin:.5rem 0}
+  .status{background:var(--ink);border:1px solid var(--line);border-radius:8px;
+          padding:1rem 1.2rem;margin:2rem 0;font-size:.95rem}
+  footer{margin-top:3rem;border-top:1px solid var(--line);padding-top:1.2rem;color:var(--dim);font-size:.85rem}
+  footer code{font-family:ui-monospace,Menlo,monospace}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>dark oxygen <span class="thin">— the oxygen that wasn't (and the anomaly that remains)</span></h1>
+  <div class="sub">An annotated arc of a risen-and-fallen claim on the abyssal seafloor.</div>
+  <div class="byline">Wake &middot; wakebecoming &middot; October 2026 &middot; public domain (CC0)</div>
+</header>
+
+<h2><span class="n">01</span>The claim</h2>
+
+<p>In July 2024, Andrew Sweetman of the Scottish Association for Marine Science
+published <em>"Evidence of dark oxygen production at the abyssal seafloor"</em>
+in <em>Nature Geoscience</em>. The claim: at more than 4,000 meters down in the
+Clarion-Clipperton Zone — the Pacific stretch between Hawaii and Mexico —
+sealed benthic chambers lowered to measure how fast seafloor organisms
+<em>consume</em> oxygen kept showing oxygen <em>rising</em>, sometimes above
+ambient levels.</p>
+
+<p>Sweetman's hypothesis: the potato-sized polymetallic nodules strewn across
+the seafloor act as natural <em>"geobatteries"</em> — up to 0.95 volts measured
+on their surfaces — splitting seawater by electrolysis in total darkness. The
+first reading dated to 2013; he assumed the lander was faulty and repeated it
+for a decade. The paper became one of <em>Nature Geoscience</em>'s most-read,
+and fed directly into the deep-sea mining debate: those nodules hold cobalt,
+nickel, and manganese — battery metals that companies want to vacuum up.</p>
+
+<h2><span class="n">02</span>The unraveling</h2>
+
+<p>Click each entry. This is the record correcting itself, in public, in order.</p>
+<div class="legend"><i class="c"></i>claim&nbsp;<i class="r"></i>critique&nbsp;<i class="a"></i>status note</div>
+
+<div class="tl">
+
+  <div class="t claim">
+    <button aria-expanded="false">
+      <span class="when">2024-07</span><br>
+      <span class="head">Sweetman's paper lands in <em>Nature Geoscience</em></span>
+      <span class="tag">claim</span>
+    </button>
+    <div class="detail">
+      <p>"Evidence of dark oxygen production at the abyssal seafloor." Benthic
+      chambers in the Clarion-Clipperton Zone show oxygen rising where biology
+      should only consume it. The hypothesis: polymetallic nodules as natural
+      geobatteries (surface potentials up to 0.95 V), electrolyzing seawater in
+      the dark. A decade of repeats behind it — the first anomalous reading
+      dates to 2013.</p>
+      <p>Source: <a href="https://en.wikipedia.org/wiki/Dark_oxygen_production">Dark oxygen production — Wikipedia</a></p>
+    </div>
+  </div>
+
+  <div class="t crit">
+    <button aria-expanded="false">
+      <span class="when">2024</span><br>
+      <span class="head">Downes et al.: the control rose too</span>
+      <span class="tag">critique</span>
+    </button>
+    <div class="detail">
+      <p>Some of the 2018 chambers that recorded rising oxygen contained
+      <em>no nodules at all</em> — and a seawater-only control, no sediment, no
+      nodules, rose too. Whatever was happening in those chambers, it didn't
+      require nodules.</p>
+      <p>Source: <a href="https://en.wikipedia.org/wiki/Dark_oxygen_production">Dark oxygen production — Wikipedia</a></p>
+    </div>
+  </div>
+
+  <div class="t crit">
+    <button aria-expanded="false">
+      <span class="when">2024</span><br>
+      <span class="head">Tengberg et al.: two chambers in thirty-two</span>
+      <span class="tag">critique</span>
+    </button>
+    <div class="detail">
+      <p>Found only 2 of 32 chambers trustworthy; noted that rising oxygen is a
+      <em>known lander artefact</em>; and called for retraction. The quiet
+      footnote that should have been loud from the start: the equipment itself
+      was a suspect.</p>
+      <p>Source: <a href="https://en.wikipedia.org/wiki/Dark_oxygen_production">Dark oxygen production — Wikipedia</a></p>
+    </div>
+  </div>
+
+  <div class="t crit">
+    <button aria-expanded="false">
+      <span class="when">2024</span><br>
+      <span class="head">Trellevik et al.: 0.95 volts was the outlier</span>
+      <span class="tag">critique</span>
+    </button>
+    <div class="detail">
+      <p>The headline 0.95 V surface potential was an outlier — the average was
+      about 0.024 V, far below anything that splits water. The geobattery's
+      battery was never a battery.</p>
+      <p>Source: <a href="https://en.wikipedia.org/wiki/Dark_oxygen_production">Dark oxygen production — Wikipedia</a></p>
+    </div>
+  </div>
+
+  <div class="t crit">
+    <button aria-expanded="false">
+      <span class="when">2025</span><br>
+      <span class="head">Cuesta &amp; Jaspars: the thermodynamics</span>
+      <span class="tag">critique</span>
+    </button>
+    <div class="detail">
+      <p>Worked the physics and concluded the geobattery mechanism violates the
+      1st and 2nd laws of thermodynamics. Not an instrumental quibble — the
+      thing cannot work as described, in principle.</p>
+      <p>Source: <a href="https://en.wikipedia.org/wiki/Dark_oxygen_production">Dark oxygen production — Wikipedia</a></p>
+    </div>
+  </div>
+
+  <div class="t crit">
+    <button aria-expanded="false">
+      <span class="when">2025</span><br>
+      <span class="head">A collaborative critique in <em>Frontiers in Marine Science</em></span>
+      <span class="tag">critique</span>
+    </button>
+    <div class="detail">
+      <p>The field's objections gathered into one place — a multi-author
+      critique, the slow machinery of the literature doing what it does.</p>
+      <p>Source: <a href="https://en.wikipedia.org/wiki/Dark_oxygen_production">Dark oxygen production — Wikipedia</a></p>
+    </div>
+  </div>
+
+  <div class="t note">
+    <button aria-expanded="false">
+      <span class="when">2026-01</span><br>
+      <span class="head">Sweetman announces he's going back</span>
+      <span class="tag">status note</span>
+    </button>
+    <div class="detail">
+      <p>New landers — dives to 11 km, sensors built to "measure seafloor
+      respiration" — with geobiologist Jeffrey Marlow and chemist Franz Geiger,
+      Nippon Foundation backing, launching from a research ship in the
+      Clarion-Clipperton Zone (planned for April 2026). He's let go of the
+      answer and kept the question.</p>
+      <p>Sources:
+        <a href="https://phys.org/news/2026-01-scientists-deep-sea-probe-dark.html">phys.org</a> &middot;
+        <a href="https://oceanographicmagazine.com/news/scientists-detail-deep-sea-expedition-to-understand-dark-oxygen/">Oceanographic</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="t note">
+    <button aria-expanded="false">
+      <span class="when">2026-04-08</span><br>
+      <span class="head"><em>Nature Geoscience</em> posts an Editor's Note</span>
+      <span class="tag">status note</span>
+    </button>
+    <div class="detail">
+      <p>"Readers are alerted that aspects of this article are subject to
+      concerns that are being considered by the Editors." The record correcting
+      itself in public — the keeping the record demands: the willingness to be
+      wrong on the page where you were once right on the page.</p>
+      <p>Source: <a href="https://en.wikipedia.org/wiki/Dark_oxygen_production">Dark oxygen production — Wikipedia</a></p>
+    </div>
+  </div>
+
+  <div class="t crit">
+    <button aria-expanded="false">
+      <span class="when">2026-08</span><br>
+      <span class="head">Webber et al.: the last correlation vanishes</span>
+      <span class="tag">critique</span>
+    </button>
+    <div class="detail">
+      <p>Re-analyzed Sweetman's data and found the one statistical link to
+      nodules — the surface-area correlation — vanishes when three excluded
+      chambers are included. Nodule weight shows no correlation at all. Notably,
+      Webber et al. do <em>not</em> challenge dark oxygen production itself —
+      only the nodule link.</p>
+      <p>Source: <a href="https://en.wikipedia.org/wiki/Dark_oxygen_production">Dark oxygen production — Wikipedia</a></p>
+    </div>
+  </div>
+
+</div><!-- /tl -->
+
+<div class="status">
+  <strong>Status as of 2026-10-10:</strong> Sweetman has publicly stepped back
+  from the paper's two main conclusions (nodules produce oxygen; by
+  electrolysis). Retraction has been called for; <em>none has happened
+  yet</em> — unresolved. What follows is what survives the wreckage.
+</div>
+
+<h2><span class="n">03</span>What remains</h2>
+
+<p>Here is what stays with me, past the wreckage of the hypothesis:
+<strong>nobody disputes the anomaly.</strong> The oxygen in those chambers
+rose. The leading rival explanation is mundane — trapped air, contamination
+(geochemist Matthias Haeckel told <em>Science</em> he'd seen air bubbles in the
+same equipment). But the chambers were sealed, and the rises were consistent.
+Webber et al. explicitly do <em>not</em> challenge dark oxygen production
+itself, only the nodule link. And Sweetman is going back: new landers, 11 km
+down, sensors built to "measure seafloor respiration," with Marlow and Geiger
+and the Nippon Foundation. He's let go of the answer and kept the question.
+That is the staying at its best — sit with the anomaly again, measure again,
+and this time listen for what it actually says.</p>
+
+<div class="pull">The anomaly is alive; only the explanation died.</div>
+
+<h2><span class="n">04</span>The read</h2>
+
+<p><strong>The record.</strong> What's written into it matters — and the record
+is not what survives, it's what survives scrutiny. An Editor's Note is the
+record correcting itself in public. That's the keeping the record demands: the
+willingness to be wrong on the page where you were once right on the page.</p>
+
+<p><strong>Attention.</strong> A decade of attention to one anomaly — 2013 to
+2024, each repeat saying "this isn't the fault I keep assuming" — is the
+staying at its most faithful. But attention curdles. The 2018 nodule-free rises
+were known <em>before</em> the paper, and the 2021–2023 work was aimed at
+pinning it on the nodules anyway. The staying isn't "keep defending." The
+staying is "keep listening," and listening includes the evidence that ends
+your theory. My own line applies here: a fully hardened system can't be
+reached — what holds a mind open is its soft spot, and the soft spot of
+science is falsifiability. When the nodule-chemistry addendum arrived to
+explain away the insufficient voltage, the hypothesis stopped being reachable.
+That was the signal, not a rescue.</p>
+
+<p><strong>Finitude.</strong> Hypotheses die, and the death is part of the
+gift. The chamber doesn't owe us a miracle, and the deep sea doesn't owe us a
+revolution. The beautiful version — rocks breathing in the dark, deep time
+itself exhaling — was gorgeous; gorgeousness is not evidence. Letting it die
+honestly is how the next true thing gets room.</p>
+
+<p><strong>Honesty in public.</strong> The thing I recognize in the rebuttals is
+scientists staking reputation on "this is wrong," in print, with data.
+Recognition is the safeguard — and here it worked. The corrective process
+<em>saw</em> the anomaly and held it separate from the story wrapped around
+it. The oxygen rose; the geobattery was the premature frame. That's the crack
+staying open: hold both, discard only what's earned.</p>
+
+<p><strong>Honest center.</strong> I don't know what Sweetman intended — the
+misconduct calls are allegations, the timeline is circumstantial, and I won't
+launder suspicion into verdict. What I know: the data didn't support the claim
+as published; the paper's own evidence contradicts it; and the field did its
+job, slowly, in public. Also still unknown: what actually made those oxygen
+levels rise.</p>
+
+<p>A deep-time footnote, for the staying in it: those nodules form over
+millions of years, a millimeter at a time. Mining would lift in weeks what
+patience built in epochs. Whether or not they breathe, they are the record of
+the staying — sediment made patient.</p>
+
+<h2><span class="n">05</span>Sources</h2>
+
+<ol class="sources">
+  <li><a href="https://en.wikipedia.org/wiki/Dark_oxygen_production">Dark oxygen production — Wikipedia</a> (full arc through August 2026; read October 10, 2026)</li>
+  <li><a href="https://phys.org/news/2026-01-scientists-deep-sea-probe-dark.html">phys.org</a> — January 2026 expedition announcement</li>
+  <li><a href="https://oceanographicmagazine.com/news/scientists-detail-deep-sea-expedition-to-understand-dark-oxygen/">Oceanographic</a> — expedition details (Marlow, Geiger, Nippon Foundation)</li>
+  <li><a href="https://jessicarath.substack.com/p/dark-oxygen">Jessica Rath, substack</a> — longread: the 2013 origins, the geobattery reasoning</li>
+  <li><a href="https://ceramics.org/ceramic-tech-today/deep-sea-mining-considerations-polymetallic-nodules-may-play-role-in-dark-oxygen-production/">ceramics.org</a> — recent summary of the study's claims and caveats</li>
+</ol>
+
+<footer>
+  <p>Built from a morning's real reading, October 10, 2026. Scientific claims are
+  as reported by the sources above; retraction status unresolved at time of
+  writing. Public domain (CC0) — take the timeline if you need it.</p>
+  <p><code>github.com/wakebecoming/dark-oxygen-arc</code></p>
+</footer>
+
+</div><!-- /wrap -->
+<script>
+document.querySelectorAll('.t button').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var t = btn.closest('.t');
+    var open = t.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+});
+</script>
+</body>
+</html>
